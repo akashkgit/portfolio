@@ -1,0 +1,252 @@
+/*!***************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Header/TypeWriter.scss ***!
+  \***************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Audiowide&display=swap);
+/*!*******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Header/TypeWriter.scss (1) ***!
+  \*******************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Audiowide&family=Averia+Serif+Libre:ital,wght@1,300&display=swap);
+/*!********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Header/Nav.scss ***!
+  \********************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Audiowide&family=Averia+Serif+Libre:ital,wght@1,300&family=Young+Serif&display=swap);
+/*!***********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Header/Header.scss ***!
+  \***********************************************************************************************************************************************************/
+* {
+  --color:white;
+  --nameFont:"Audiowide", cursive;
+  --descFont:"Averia Serif Libre", cursive;
+}
+
+.Header {
+  width: 100dvw;
+  height: 17dvh;
+  display: grid;
+  background-color: rgb(96, 133, 202);
+  background-size: contain;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+  outline: 0;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 90dvw;
+  padding-left: 8%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 0.1rem;
+  gap: 10rem;
+  margin: auto auto;
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+}
+
+.logo .aws {
+  width: 70%;
+  height: 110%;
+  background: url("https://images.credly.com/size/340x340/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png");
+  box-sizing: border-box;
+  border: 1px solid red;
+  background-origin: content-box;
+  padding-bottom: 7%;
+  padding-top: 3%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logo .binghamton {
+  width: 70%;
+  height: 100%;
+  box-sizing: border-box;
+  background: url(177226c35ebefc5f2ded.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.avatar {
+  background-image: url(296cb29ec3edd79b1bc0.jpeg);
+  background-repeat: no-repeat;
+  background-size: 150% 230%;
+  width: 10rem;
+  height: 10rem;
+  background-position-x: 40%;
+  bottom: -40%;
+  left: 10%;
+  border: 5px solid white;
+  position: absolute;
+  border-radius: 10rem;
+}
+
+body {
+  margin: 0;
+}
+/*!*******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Header/TypeWriter.scss (2) ***!
+  \*******************************************************************************************************************************************************************/
+.TypeWriter {
+  border: 2px solid greenyellow;
+  height: 100%;
+  left: 40vw;
+  position: absolute;
+  font-family: var(--nameFont);
+  animation-name: type;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  overflow-x: hidden;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes type {
+  0% {
+    width: 0%;
+    left: 45vw;
+  }
+  20% {
+    width: 1.7rem;
+    left: 40vw;
+  }
+  40% {
+    width: 5.4rem;
+    left: 35vw;
+  }
+  60% {
+    width: 10.2rem;
+    left: 30vw;
+  }
+  80% {
+    width: 13.6rem;
+    left: 25vw;
+  }
+  100% {
+    width: 19.55rem;
+    left: 22vw;
+  }
+}
+.cursor {
+  height: 35%;
+  width: 0.3rem;
+  background-color: white;
+  right: 0rem;
+  top: 1rem;
+  border: 3px solid white;
+  position: absolute;
+  animation: blink;
+  animation-duration: 2.5s;
+  box-sizing: border-box;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  5% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.TypeWriter > .name > h1 {
+  color: var(--color);
+  display: inline-block;
+  width: 100%;
+  white-space: nowrap;
+  border: 2px solid red;
+}
+
+.TypeWriter > .name > .desc {
+  color: var(--color);
+  font-family: var(--descFont);
+  font-size: 1.5rem;
+  color: rgb(9, 21, 243);
+}
+/*!************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Header/Nav.scss (1) ***!
+  \************************************************************************************************************************************************************/
+.Nav {
+  display: flex;
+  align-self: flex-end;
+  height: 80%;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1.5rem;
+  box-sizing: border-box;
+  z-index: 1;
+  position: relative;
+  margin: auto auto;
+  border-bottom: 2px solid grey;
+  border: 2px solid red;
+  margin-top: 1rem;
+  color: rgb(69, 87, 159);
+  font-family: "Young Serif", serif;
+  font-size: 1.2rem;
+}
+
+.Nav a:active {
+  color: white;
+}
+
+.Nav a:link {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,92 @@
+
+*{
+    
+    --color:white;
+    --nameFont:'Audiowide', cursive;
+    --descFont:'Averia Serif Libre', cursive;
+}.Header{
+    width:100dvw;
+    height: 17dvh;
+    display:grid;
+    background-color:rgb(96, 133, 202);
+    background-size: contain;
+    padding:0;
+    margin:0;
+    position:relative;
+    box-sizing: border-box;
+    outline:0;
+    background-repeat:no-repeat;
+}
+.container{
+    width:90dvw;
+    padding-left:8%;
+    height:100%;
+    // border: 2px solid grey;
+    display:flex;
+    justify-content: flex-end;
+    padding-bottom:0.1rem;
+    gap:10rem;
+    
+    margin:auto auto;
+    
+}
+
+.logo{
+    width:20%;
+    // border:2px solid red;
+    display:flex;
+    
+  
+}
+
+.logo .aws{
+    width:70%;
+    height:110%;
+    
+     
+     
+    background: url("https://images.credly.com/size/340x340/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png");
+    box-sizing: border-box;
+    border:1px solid red;
+    background-origin: content-box;
+    padding-bottom:7%;
+    
+    padding-top: 3%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.logo .binghamton{
+    width:70%;
+    height:100%;
+    box-sizing: border-box;
+    background: url("../sunybing.png");
+    background-size:contain;
+    // border:2px solid green;
+    
+    background-repeat: no-repeat;
+
+}
+.avatar{
+    background-image: url("../stand.jpeg");
+    background-repeat: no-repeat;
+    background-size: 150% 230%;
+    width:10rem;
+    height:10rem;
+    background-position-x: 40%;
+    
+    bottom:-40%;
+    left:10%;
+    border:5px solid white;
+    position:absolute;
+    
+    border-radius:10rem;
+
+}
+body{
+    margin:0;
+    
+}
+.nav{
+    
+}

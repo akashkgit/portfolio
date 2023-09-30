@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Averia+Serif+Libre:ital,wght@1,300&family=Young+Serif&display=swap');
+.Nav{
+    display: flex;
+    
+    
+    align-self: flex-end;
+    height:80%;
+    align-items: flex-end;
+    justify-content: center;
+    gap:1.5rem;
+
+    box-sizing: border-box;
+    z-index:1;
+    position:relative;
+    margin:auto auto;
+    border-bottom: 2px solid grey;
+    border:2px solid red;
+    margin-top:1rem;
+    color:rgb(69, 87, 159);
+    font-family: 'Young Serif', serif;
+    font-size: 1.2rem;
+
+}
+.Nav a:active{
+    color:white;
+}
+.Nav a:link{
+    color:white;
+    text-decoration: none;
+}

@@ -4,13 +4,13 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const WorkboxWebpackPlugin = require("workbox-webpack-plugin");
-
+const CopyPlugin = require("copy-webpack-plugin");
 const isProduction = process.env.NODE_ENV == "production";
 
 const stylesHandler = MiniCssExtractPlugin.loader;
 
 const config = {
-  entry: "./src/index.ts",
+  entry: "./src/index.tsx",
   output: {
     path: path.resolve(__dirname, "dist"),
   },
@@ -21,6 +21,12 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "index.html",
+    }),
+    new CopyPlugin({
+      patterns: [
+        { from: "./src/keyboard.mp3", to: "./" },
+  
+      ],
     }),
 
     new MiniCssExtractPlugin(),
@@ -44,7 +50,7 @@ const config = {
         use: [stylesHandler, "css-loader", "postcss-loader"],
       },
       {
-        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
+        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|mp3)$/i,
         type: "asset",
       },
 
@@ -57,7 +63,9 @@ const config = {
   },
 };
 
-module.exports = () => {
+module.exports = (() => {
+
+  
   if (isProduction) {
     config.mode = "production";
 
@@ -65,5 +73,8 @@ module.exports = () => {
   } else {
     config.mode = "development";
   }
+  
+  
   return config;
-};
+});
+console.log(module.exports.plugins)
