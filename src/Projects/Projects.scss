@@ -2,33 +2,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
 .Items{
     
+    scrollbar-color: white white;
+    scrollbar-track-color: white;
+    
     display:flex;
+    
     flex-direction: column;
-    flex:1;
+    
     align-items: flex-start;
-      border: 2px solid green;
+    
+    //   border: 2px solid green;
+      
+      width:90%;
+      height:47vh;
+      scroll-snap-type: y mandatory;
+      overflow-y: scroll;
+      scroll-padding-bottom: 1rem;
+      
 
 }
 
-
 .pBox.Chess{
     
-    
+    scroll-snap-align: start;
     // display:block;
     
     // align-items: center;
     // gap:1rem;
-    width:90%;
+    width:100%;
     display:flex;
+    scroll-snap-stop: always;
     gap:1rem;
     padding: 0;
     
     // border:2px solid lightblue;
+}
+.pBox.Inker{
     
+    scroll-snap-align: start;
+    // display:block;
     
+    // align-items: center;
+    // gap:1rem;
+    width:100%;
+    display:flex;
+    margin-top:1rem;
+    scroll-snap-stop: always;
+    gap:1rem;
+    padding: 0;
+    margin-top:3rem;
     
-    
+    // border:2px solid lightblue;
+}
 
+.pBox.Park{
+    
+    scroll-snap-align: start;
+    // display:block;
+    
+    // align-items: center;
+    // gap:1rem;
+    width:100%;
+    
+    display:flex;
+    margin-bottom:4rem;
+    scroll-snap-stop: always;
+    gap:1rem;
+    padding: 0;
+    margin-top:3rem;
+    
     
     
 }
@@ -41,7 +83,7 @@
 .oShaw:hover{
     box-shadow:-5px -5px 5px -5px rgb(62, 110, 187),10px 1px 10px -10px rgb(62, 110, 187);
 }
-.Chess:before{
+.Chess:before,.Inker::before,.Park::before{
     width:20vw;
     height:10%;
     background-color: black;
@@ -56,7 +98,7 @@
     content: "";
 
 }
-.Chess::after{
+.Chess::after,.Inker::after,.Park::after{
     width:30vw;
     height:10%;
     background-color: black;
@@ -73,50 +115,22 @@
 }
 
 
+
 .content.chessC{
-    padding-top: 1rem;;
+    padding-top: 1rem;
 }
-.Inker::before{
-    width:30vw;
-    height:10%;
-    background-color: grey;
-    opacity: 0.3;
-    transform: skewY(-3deg);
-    filter: blur(5px);
 
-    position:absolute;
-    bottom:-5px;
-    z-index:-100;
-    left:0px;
-    content: "";
-
-}
 .eShaw{
     box-shadow:-5px -5px 5px -5px grey,10px 1px 10px -10px grey;
 }
 
 
-.InkerI{
-background: url("../inker_128.png");
-background-repeat: no-repeat;
 
-background-size: contain;
- 
-width:30rem;
-float:left;
-
-height:17rem;
-}
-
-.Chess h2{
+.Chess h2,.Inker h2,.Park h2{
     margin:0;
 }
 
-.Inker{
-    position:relative;
-    background-color: white;
-}
-.Chess{
+.Chess,.Inker,.Park{
     position:relative;
     
     background-color: white;
@@ -142,6 +156,7 @@ background-position: 0rem 0%;
     width:2rem;
     display: inline-block;
     height: 2rem;
+    
     background-size: contain;
     box-sizing: border-box;
     background-position: 0rem 0%;
@@ -151,52 +166,91 @@ background-position: 0rem 0%;
     background:url("../chess.png");//https://user-images.githubusercontent.com/45854686/236359000-7f2b91e8-d25b-4721-849f-868aa4827afa.jpg
     background-size: contain;
     background-repeat: no-repeat;
-    width:72rem;
-    height:40vh;
+    width:88rem;
+    height:100%;
+    align-self: center;
+    box-sizing: border-box;
     
     box-sizing: border-box;
     margin-right:0.1rem;
-    float:left;
+    
     margin-top:0.75rem;
     
     
 }
+.InkerI{
 
+    background:url("../ink.png");//https://user-images.githubusercontent.com/45854686/236359000-7f2b91e8-d25b-4721-849f-868aa4827afa.jpg
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:85rem;
+    background-color: 2pc solid blue;
+    height:100%;
+    box-sizing: border-box;
+    
+    box-sizing: border-box;
+    margin-right:0.1rem;
+    
+    
+    
+    
+}
 
 .ParkI{
 
-    background:url("https://user-images.githubusercontent.com/45854686/236359000-7f2b91e8-d25b-4721-849f-868aa4827afa.jpg");//https://en.wikipedia.org/wiki/Classic_RISC_pipeline#/media/File:Fivestagespipeline.png
-    background-size: contain;
+    background:url("../park.png");
     
     background-repeat: no-repeat;
-}
-.RoverI{
-    background:url("../Rover.png");
     background-size: contain;
-    
-    background-repeat: no-repeat;
-}
-.RISCI{
+    margin:auto auto;
+    width:79rem;
 
-    background:url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Fivestagespipeline.png/400px-Fivestagespipeline.png");
-    background-size: contain;
-    align-self: center;
-    background-repeat: no-repeat;
+    height:100%;
+    box-sizing: border-box;
+    
+    box-sizing: border-box;
+    margin-right:0.1rem;
+    
+    
+    
+    
 }
+// 
+
+.RI{
+
+    background:url("../risc.png");
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:auto auto;
+    width:79rem;
+
+    height:100%;
+    box-sizing: border-box;
+    
+    box-sizing: border-box;
+    margin-right:0.1rem;
+    
+    
+    
+    
+}
+
 
 
 .Menu{
 
-    width:15%;
+    flex:1;
     
     
-    //  border:2px solid maroon;
+      
 }
 
 .ProjectsContainer{
     width:95vw;
     
-    // border:2px solid red;
+    //  border:2px solid red;
     display:flex;
     
     margin:auto  auto;
@@ -206,7 +260,7 @@ background-position: 0rem 0%;
     font-family: 'Libre Franklin', sans-serif;
 
 
-    gap:1rem;
+    
     
     
     
