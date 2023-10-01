@@ -7,24 +7,39 @@
     height:80%;
     align-items: flex-end;
     justify-content: center;
-    gap:1.5rem;
+    
 
     box-sizing: border-box;
     z-index:1;
     position:relative;
     margin:auto auto;
-    border-bottom: 2px solid grey;
-    border:2px solid red;
+    border-bottom: 2px solid blue;
+    
     margin-top:1rem;
-    color:rgb(69, 87, 159);
+    
     font-family: 'Young Serif', serif;
     font-size: 1.2rem;
-
+    
 }
 .Nav a:active{
-    color:white;
+ 
+}
+.navItems{
+    color:rgb(245, 245, 245);
+    padding:0.5rem;
+    
+}
+.navItems:hover{
+    
+    background-color: rgba(255, 255, 255, 0.844);
+    color:red;//
+    border-radius:0.25rem;
 }
 .Nav a:link{
     color:white;
+    text-decoration: none;
+}
+.Nav a:hover{
+    color:rgb(72, 115, 203);
     text-decoration: none;
 }

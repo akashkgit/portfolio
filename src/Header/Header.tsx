@@ -8,18 +8,31 @@ import { Link } from "react-router-dom";
 
 
 
-export function FirstPage(){
+export function Header(){
+
     return <div className="Header">
+        <TypeWriter />
         <div className="container">
+
             <div className="avatar"></div>
+            <div></div>
+            <Nav />
             
+            <div className="social" style={{visibility:"hidden"}}>
+
+                    <div className="linkedIn"></div>
+                    <div className="mail"></div>
+                    <div className="gitHub"></div>
+                </div>
+
             
-            <TypeWriter />
             <div className="logo">
                 <div className="aws"></div>
                 <div className="binghamton"></div>
+                
 
             </div>
+            
             
             
         </div>
@@ -60,13 +73,12 @@ return <div className="TypeWriter">
 
 export function Nav(){
     return <div className="Nav">
-        <div className="navItems"><Link to="/projects"> Projects </Link></div>
-        <div className="navItems"><Link to="/projects"> Articles </Link></div>
-        <div className="navItems"><Link to="/projects"> Music </Link></div>
-        <div className="navItems"><Link to="/projects"> Skills </Link></div>
-        <div className="navItems"><Link to="/projects"> Experience </Link></div>
-        <div className="navItems"><Link to="/projects"> Timeline </Link></div>
-        <div className="navItems"><Link to="/projects"> Projects </Link></div>
+        <Link className="navItems" to="/projects"> Projects </Link>
+        <Link className="navItems" to="/Content"> Content </Link>
+        <Link className="navItems" to="/Music"> Music </Link>
+        <Link className="navItems" to="/Home"> Home </Link>
+        <Link className="navItems" to="/connect"> Connect </Link>
+    
 
     </div>
 }

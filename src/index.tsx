@@ -1,8 +1,10 @@
 import React from 'react';
-import {FirstPage} from "./Header/Header";
+import {App} from "./App";
 import {createRoot} from 'react-dom/client';
-import { RouterProvider, createBrowserRouter } from '../node_modules/react-router-dom/dist/index';
+import { RouterProvider, createHashRouter } from '../node_modules/react-router-dom/dist/index';
 import { Nav } from './Header/Header';
+import {Projects} from "./Projects/Projects";
+import {Home} from "./Home/Home"
 function Index(){
     return <>
     
@@ -16,14 +18,24 @@ function Index(){
     
     </>
 }
-let router=createBrowserRouter([{
+let router=createHashRouter([{
 
     path:"/",
-    element:<FirstPage />,
+    
+    element:<App />,
     children:[
         {
+                path:"projects",
+                // index:true,
+                element:<Projects />
 
-        }
+        },
+        {
+            path:"Home",
+            // index:true,
+            element:<Home />
+
+    }
     ]
 
 
@@ -31,5 +43,5 @@ let router=createBrowserRouter([{
 
 
 let root=document.querySelector("#root");
-createRoot(root).render( <div><RouterProvider router={router} ></RouterProvider></div>);
+createRoot(root).render( <RouterProvider  router={router} ></RouterProvider>);
 
