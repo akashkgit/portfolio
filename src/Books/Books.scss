@@ -1,8 +1,7 @@
 .booksCont{
-    border:2px solid red;
+    // border:2px solid red;
     width:100%;
-    box-sizing: border-box;
-    margin-top:7rem;
+    margin-top:17rem;
     padding-top:1rem;
     padding-left:1rem;
     
@@ -10,6 +9,7 @@
     flex-direction: column;
     background-color:rgb(27, 87, 199);
     align-items: center;
+    box-sizing: border-box;
 
     
 
@@ -19,38 +19,34 @@
     flex-direction: row;
     font-family: 'Noto Sans JP', sans-serif;
     color:white;
-    border:2px solid green;
+    // border:2px solid green;
     justify-content: center;
     width:40%;
     gap:0.5rem;
     font-size: 1.25rem;
 }
 .selectedNavBooks{
-    border-bottom:2px solid white;
-    background-color:white;
-    background-color:rgb(27, 87, 199);
+     border:2px solid rgb(219, 214, 214);
+    text-decoration: dashed;
+    color:rgb(27, 87, 199);
+    background-color:rgb(219, 214, 214);
 }
 .booksNav a:link{
     text-decoration: none;
 }
 .booksContent{
     width:100%;
-    box-sizing: border-box;
-    padding:0.5rem;
-    
-    border:2px solid gold;
+    // border:2px solid gold;
 }
 
 .booksContent .ZeroToOne, .booksContent .essentialism{
     width:100%;
- border:2px solid black;
-//  display: flex;
+//  border:2px solid black;
+box-sizing: border-box;
+ display: flex;
  flex-direction: row;
  justify-content: center;
- color:white;
-    font-size:1.1rem;
-    font-family: 'Noto Sans JP', sans-serif;
-    
+ 
  align-items: center;
  justify-content: center;
 //  border:2px solid brown;
@@ -63,9 +59,6 @@
     background-size: contain;
     background-repeat:no-repeat;
     width:12rem;
-    float:left;
-    margin-top:2rem;
-    margin-right:1rem;
     // border:2px solid black;
     box-shadow: 2px 1px 5px 1px black;
     
@@ -77,14 +70,11 @@
     background:url("../essential.jpeg") ;
     background-size: contain;
     background-repeat:no-repeat;
-    width:18rem;
-    float:left;
-    margin-right: 1.5rem;
-    margin-top: 0.5rem;
+    width:27rem;
     // border:2px solid black;
     box-shadow: 2px 1px 5px 1px black;
     
-    height:18rem;
+    height:27rem;
     
 
 }
