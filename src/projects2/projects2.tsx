@@ -89,7 +89,7 @@ export function Inker(){
         
             <img className="inkI" src={marker}></img>
             <div className="inkC">
-                <p> 
+                <p className="j"> 
                     Inker is an innovative yet development project  to simplify the hassle of copying texts read from web articles to the physical notepad so as to not lose the
                     important points. Inker aids web readers by allowing them to highlight the texts in any webpage and provides the choice to either have a session or to maintain the state between sessions.
                     Inker Also allows users to save the highlighted texts in the google document along with url and heading for later reference.
@@ -155,7 +155,7 @@ export function Risc(){
     return <div className="Risc">
         <div className="rI"> </div>
         <div className="rC">
-            <p> Designed an RISC (Reduced Instruction Set Architecture) Pipeline with stages such fetch, decode, disptach, execute, memory, write back et cetera. We as a group of two classmates 
+            <p className="j"> Designed an RISC (Reduced Instruction Set Architecture) Pipeline with stages such fetch, decode, disptach, execute, memory, write back et cetera. We as a group of two classmates 
                 Simulated the pipeline using various techniques such as ROB, Instruction queuing, Register Renaming, Virtual ARF et cetera.
                 Analyzed the CPI(Cycles Per iInstruction) and IPC(Instructions Per Cycle )  performances of these methods. The Closest CPI that we could drill down to is 0.5.
                 The languages leveraged to simulate the pipeline is C.
@@ -170,7 +170,7 @@ export function Risc(){
 export function Xv6(){
     return <div className="Xv6">
         <div className="xv6C">
-            <p>Constructed some of the interesting features that are essential for an operating System. I Designed a system call to wrap a custom fork function and Implemented a custom scheduler
+            <p className="j">Constructed some of the interesting features that are essential for an operating System. I Designed a system call to wrap a custom fork function and Implemented a custom scheduler
                 that uses Round Robin and MLFQ based scheduling stratergy. This helped me in my daily usage of MAC OS which is simply UNIX. The language used to realize these tasks is the majestic C! </p>
         </div>
     </div>
@@ -180,7 +180,7 @@ export function Agrimation(){
     return <div className="Agrimation">
         <div className="agrimationI"></div>
         <div className="agrimationC">
-        <p> This is one of my project that was  started out of curiosity behind rover. We Built this rover using National Instrument's labVIEW  and their propreitery Micro controller called myRIO.
+        <p className="j"> This is one of my project that was  started out of curiosity behind rover. We Built this rover using National Instrument's labVIEW  and their propreitery Micro controller called myRIO.
     The commmunication happens wirelessly between the rover and the remote controller which is the laptop here. They communication via a shared network network variable.</p>
         </div>
     </div>

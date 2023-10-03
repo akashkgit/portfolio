@@ -1,3 +1,4 @@
+import {Books, Essentialism, ZeroToOne} from "./Books/Books";
 import React from 'react';
 import {App} from "./App";
 import {createRoot} from 'react-dom/client';
@@ -58,9 +59,19 @@ let router=createHashRouter([{
 
         },
         {
-            path:"Home",
+            path:"books",
             // index:true,
-            element:<Home />
+            element:<Books />,
+            children:[
+                {
+                    path:"zeroToOne",
+                    element:<ZeroToOne />,   
+                },
+                {
+                    path:"essentialism",
+                    element:<Essentialism />,   
+                }
+            ]
 
     }
     ]

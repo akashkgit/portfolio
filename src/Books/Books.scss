@@ -1,0 +1,102 @@
+.booksCont{
+    border:2px solid red;
+    width:100%;
+    box-sizing: border-box;
+    margin-top:7rem;
+    padding-top:1rem;
+    padding-left:1rem;
+    
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(27, 87, 199);
+    align-items: center;
+
+    
+
+}
+.booksNav{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:white;
+    border:2px solid green;
+    justify-content: center;
+    width:40%;
+    gap:0.5rem;
+    font-size: 1.25rem;
+}
+.selectedNavBooks{
+    border-bottom:2px solid white;
+    background-color:white;
+    background-color:rgb(27, 87, 199);
+}
+.booksNav a:link{
+    text-decoration: none;
+}
+.booksContent{
+    width:100%;
+    box-sizing: border-box;
+    padding:0.5rem;
+    
+    border:2px solid gold;
+}
+
+.booksContent .ZeroToOne, .booksContent .essentialism{
+    width:100%;
+ border:2px solid black;
+//  display: flex;
+ flex-direction: row;
+ justify-content: center;
+ color:white;
+    font-size:1.1rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+ align-items: center;
+ justify-content: center;
+//  border:2px solid brown;
+ gap:1.5rem;
+
+}
+
+.ztoI{
+    background:url("../zto.jpeg") ;
+    background-size: contain;
+    background-repeat:no-repeat;
+    width:12rem;
+    float:left;
+    margin-top:2rem;
+    margin-right:1rem;
+    // border:2px solid black;
+    box-shadow: 2px 1px 5px 1px black;
+    
+    height:18rem;
+    
+
+}
+.eI{
+    background:url("../essential.jpeg") ;
+    background-size: contain;
+    background-repeat:no-repeat;
+    width:18rem;
+    float:left;
+    margin-right: 1.5rem;
+    margin-top: 0.5rem;
+    // border:2px solid black;
+    box-shadow: 2px 1px 5px 1px black;
+    
+    height:18rem;
+    
+
+}
+.ztoC,.eC{
+    color:white;
+    
+    
+    
+    
+    width:70rem;
+    padding-right:0.5rem;
+    font-size:1.1rem;
+    
+    font-family: 'Noto Sans JP', sans-serif;
+}
