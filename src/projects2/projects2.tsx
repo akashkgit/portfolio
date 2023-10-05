@@ -49,9 +49,15 @@ export function Projects(){
 }
 
 export function Chess(){
+    const chessvideo=require("../chessvideo.mov");
     return <div className="chess">
 
-<div className="chessI"></div>
+
+{/* <div className="chessI">
+    
+</div> */}
+
+
 <div className="chessC">
     
     <p className="j"> The Idea of Chess clone stems from my interest in the game of chess. Chess.com has played an incredible role in hauling the talents of chess 
@@ -77,17 +83,20 @@ export function Chess(){
         
 
 </div>
-{/* <div className="chessV">
-
-</div> */}
+<div className="chessVDiv">
+<video className="chessV" src={chessvideo} controls={true}  autoPlay={true}>
+    
+</video>
+</div>
     </div>
 }
 
 export function Inker(){
     const marker=require("../marker.png");
+    const inkervideo=require("../inkervideo.mov");
     return <div className="inker">
         
-            <img className="inkI" src={marker}></img>
+            
             <div className="inkC">
                 <p className="j"> 
                     Inker is an innovative yet development project  to simplify the hassle of copying texts read from web articles to the physical notepad so as to not lose the
@@ -110,6 +119,11 @@ export function Inker(){
             
         </div>
             </div>
+            <div className="chessVDiv">
+<video className="inkV" src={inkervideo} controls={true}  autoPlay={true}>
+    
+</video>
+</div>
         </div>
 
     

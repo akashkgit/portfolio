@@ -9,9 +9,9 @@ import { Link } from "react-router-dom";
 
 
 export function Header(){
-
+const typewriter=require("../typewriter.mp3");
     return <div className="Header">
-        
+        <video src={typewriter} id="type" loop={true} style={{display:"none"}} autoPlay={true}></video>
         <div className="container">
             <TypeWriter />
             <div className="avatar"></div>
@@ -58,12 +58,26 @@ function TypeWriter(){
 
 
     useEffect(()=>{
-       
+        let type=document.querySelector("#type") as HTMLVideoElement;
+        type.volume=0.1;
+        // alert(type.volume);
 setTimeout(()=>{
     
     (document.querySelector(".name > h1") as HTMLElement).innerHTML="AKASH KUMAR"
+    // let type=document.querySelector("#type") as HTMLVideoElement;
+    // type.pause();
+
 
 },5000)
+setTimeout(()=>{
+    
+    // (document.querySelector(".name > h1") as HTMLElement).innerHTML="AKASH KUMAR"
+    console.log(" pausing video");
+    type.pause();
+    
+
+
+},7500)
 
 },[]);
 return <div className="TypeWriter">

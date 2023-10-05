@@ -26,7 +26,7 @@ export function Books(){
 
 <Link className={"booksNav "+(selectedNav==="zeroToOne"?"selectedNavBooks":"")} id="zeroToOne" to="zeroToOne" ><div id="zeroToOne">zeroToOne</div> </Link>
 <div >|</div>
-<Link className={"booksNav "+(selectedNav==="essentialism"?"selectedNavBooks":"")} id="essentialism" to="essentialism" ><div id="essentialism">essentialism</div> </Link>
+<Link className={"booksNav "+(selectedNav==="essentialism"?"selectedNavBooks":"")} id="essentialism" to="essentialism" ><div id="essentialism">Essentialism</div> </Link>
 
 </div>
 <div className="booksContent">
@@ -53,10 +53,15 @@ export function Essentialism(){
     return <div className="essentialism">
         
         <div className="eC">
-            <p className="j">Yes!Dont say 'yes' by default.Dont say "yes" so that the requestor does not resent you. So, Learn to say no, If you dont prioritise, Someone's priority will become yours
-                 When making a Decision, Dont decide on the recent option that you heard about. Take some time. explore all the options. Evaluate the tradeoff that each option has. By choosing one option, You must be ready to confront the trade offs caused by leaving the remaining. Tradeoff is inevitable in any decision. Your decision should resonate with your Essential intent/ Vision. If yes, then your single decision should simplify thousand upcoming Conundrum. Dont get intimidated by the mertis of left opitions. Have a buffer as the future is uncertain. Not everyone needs to accept your decision until you know what you are doing. Be ready to face criticisms and mockery. Get uncomfortable !
+            <p className="j">Yes!Dont say 'yes' by default.Dont say "yes" so that the requestor
+             does not resent you. So, Learn to say no, If you dont prioritise, Someone's priority will become yours
+                 When making a Decision, Dont decide on the recent option that you heard about.</p>
+                 
+                 <p className="j"> Take some time. explore all the options. Evaluate the tradeoff that each option has. By choosing one option, You must be ready to confront the trade offs caused by leaving the remaining. Tradeoff is inevitable in any decision. Your decision should resonate with your Essential intent/ Vision. If yes, then your single decision should simplify thousand upcoming Conundrum. Dont get intimidated by the mertis of left opitions. Have a buffer as the future is uncertain. Not everyone needs to accept your decision until you know what you are doing. Be ready to face criticisms and mockery. Get uncomfortable !
                  Dont do other's work. You can aid them.But, never take it completely on your head. By doing so, you are decreasing their chances of improvement. So, never count the teeth in other's mouth. When one asks for help, check if you are the apt person to do the deed. Else, refer a qualified person to handle that.
-                Start small and progress. celebrate small achievements that will lead you to your vision.By Starting big, its highly probable for one to get overwhelmed.
+                Start small and progress. celebrate small achievements that will lead you to your vision.By Starting big, its highly probable for one to get overwhelmed.</p>
+
+                <p className="j">
                 Dont fall for sun bias cost. For example, when your made a grave mistake and started realising it, be ready to accept your mistake and back off. Instead dont proceed with the mistake since you did!
                 Dont dont many things parallely. That doesnot make significant impact in those activities. Instead of doing 1mm in 10 task, put all the 1mm in one task and make 10mm work that makes significance. So, do less but btetter. So, there is a difference between multi tasking and multi focussing. You can only focus a single activity at a time. But, can do two or more that does not require your focus.</p>
 

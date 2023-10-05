@@ -11,6 +11,7 @@ export function App(){
         <div className="Body2">
         </div>
         <Outlet />
+        {/* <Footer /> */}
         
 
         

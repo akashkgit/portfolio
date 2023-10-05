@@ -1,6 +1,55 @@
 .footer{
 
     width:100vw;
-    height:20rem;
-    background-color: rgba(0,0,0.5);
+    height:15.25rem;
+    box-sizing: border-box;
+    // background: url("../gnu.png");
+display:flex;
+flex-direction: row;
+gap:0rem;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.f1{
+    width:30.1%;
+    box-sizing: border-box;
+    background: url("../gnu.png");
+
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.f2{
+    width:30.1%;box-sizing: border-box;
+    
+    
+    background: url("../docker.jpeg");
+
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.f3{
+    width:30.5%;box-sizing: border-box;
+    
+    
+    background: url("../mongo.jpeg");
+
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.f4{
+    width:30%;box-sizing: border-box;
+    
+    
+    background: url("../js.png");
+
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    filter:blur(4px);
 }

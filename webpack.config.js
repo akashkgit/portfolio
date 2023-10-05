@@ -24,7 +24,7 @@ const config = {
     }),
     new CopyPlugin({
       patterns: [
-        { from: "./src/keyboard.mp3", to: "./" },
+        { from: "./src/typewriter.mp3", to: "./" },
   
       ],
     }),
@@ -50,7 +50,7 @@ const config = {
         use: [stylesHandler, "css-loader", "postcss-loader"],
       },
       {
-        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|mp3)$/i,
+        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|mp3|mov)$/i,
         type: "asset",
       },
 

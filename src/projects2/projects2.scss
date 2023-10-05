@@ -1,13 +1,16 @@
 .projectCont{
     width: 100%;
     
-    margin-top:18rem;
-    border:2px solid gold;
+    margin-top:12rem;
+    // border:2px solid gold;
     position:relative;
     z-index: 0;
+    height:30rem;
     padding-bottom:0.5rem;
     box-sizing: border-box;
     background-color:rgb(27, 87, 199);
+    // border:2px solid grey;
+
     
 
     
@@ -72,20 +75,33 @@ color:White;
     
 }
 
-.chess,.Parking,.Risc,.Xv6,.Agrimation{
+.chess,.Risc,.Xv6{
  width:100%;
- height:100%;
+ 
  display: flex;
- flex-direction: row;
+ flex-direction: column;
  justify-content: center;
- flex-wrap: wrap;
+ flex-wrap: no-wrap;
  align-items: center;
-//  border:2px solid brown;
+//  border:2px solid yellow;
+ 
  gap:1rem;
 
 }
-
-.chessI, .chessV{
+.Parking,.Agrimation{
+    width:100%;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: no-wrap;
+    align-items: center;
+   //  border:2px solid yellow;
+    
+    gap:1rem;
+   
+}
+.chessI{
     background:url("../chess.png") ;
     background-size: contain;
     background-repeat:no-repeat;
@@ -98,13 +114,47 @@ color:White;
 
 
 }
+.chessV{
+    // background:url("../chess.png") ;
+    background-size: contain;
+    background-repeat:no-repeat;
+    width:53.5rem;
+    margin-bottom:1rem;
+    // border:2px solid black;
+    box-shadow: 2px 1px 9px 1px black;
+    margin-top:0.5rem;
+    height:30.15rem;
+    position:relative;
+    
+
+
+}
+.chessVDiv{
+    position:relative;
+}
+.chessVDiv::before{
+    width:100%;
+    height:10%;
+    
+    background-color: black;
+    opacity: 0.5;
+    transform: skewY(-3deg);
+    filter: blur(10px);
+
+    position:absolute;
+    bottom:7%;
+    z-index:-1;
+    left:-0.5%;
+    content: "";
+
+}
 .chessC p{
     margin-top:0%;
 }
 .j{
 text-align: justify;
 }
-.chessC,.parkC,.rC,.xv6C{
+.parkC,.rC,.xv6C{
     color:white;
     
     
@@ -113,10 +163,37 @@ text-align: justify;
     width:50rem;
     padding-right:0.5rem;
     font-size:1.1rem;
+    // border:2px solid red;
     
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+.chessC,.inkC{
+    color:white;
+    
+    
+    
+    
+    width:60rem;
+    padding-right:0.5rem;
+    font-size:1.1rem;
+    // border:2px solid green;
+    
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.inkV{
+  // background:url("../chess.png") ;
+  background-size: contain;
+  background-repeat:no-repeat;
+  width:48.2rem;
+  margin-bottom:1rem;
+  // border:2px solid black;
+  box-shadow: 2px 1px 9px 1px black;
+  margin-top:0.5rem;
+  height: 27.15rem;
+  position:relative;
+  
+}
 .entityBoxer{
     border:2px solid white;
     margin-left:0.5rem;
@@ -162,17 +239,24 @@ text-align: justify;
 }
     
 .inker{
-    width:85%;
+    width:100%;
+    
     box-sizing: border-box;
     margin:auto auto;
-    border:2px solid gold;
+    
+    // border:2px solid gold;
+    // background-color: grey;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    padding:0.5rem;
+    // padding-top:0.5rem;
     gap:0.5rem;
+    // margin-top:1rem;
+
+
     align-items: center;
-    flex-wrap: nowrap;
+    
+    flex-wrap: no-wrap;
 
 
 }
@@ -185,18 +269,18 @@ text-align: justify;
     // background-size:contain;
     // background-repeat: no-repeat;
 }
-.inkC  {
-    color:white;
+// .inkC  {
+//     color:white;
     
     
     
     
     
-    padding-right:0.5rem;
-    font-size:1.1rem;
+//     padding-right:0.5rem;
+//     font-size:1.1rem;
     
-    font-family: 'Noto Sans JP', sans-serif;
-}
+//     font-family: 'Noto Sans JP', sans-serif;
+// }
 
 .parkI{
     background:url("../diag.jpeg") ;
@@ -208,7 +292,7 @@ text-align: justify;
     
     height:23.8rem;
 }
-.chessC,.parkC,.rC,.agrimationC{
+.parkC,.rC,.agrimationC{
     color:white;
     
     
