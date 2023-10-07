@@ -94,7 +94,7 @@ color:White;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: no-wrap;
+    flex-wrap: wrap;
     align-items: center;
    //  border:2px solid yellow;
     
@@ -287,7 +287,7 @@ text-align: justify;
     background-size: contain;
     background-repeat:no-repeat;
     width:24.5rem;
-    // border:2px solid black;
+    border:2px solid red;
     box-shadow: 3px 2px 7px 1px black;
     
     height:23.8rem;
