@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Averia+Serif+Libre:ital,wght@1,300&display=swap');
-@media (min-resolution:196dpi ) and (min-width:1000px){
+@media (min-resolution:190dpi ) and (min-width:1000px){
 .TypeWriter{
     
     width:18rem;
@@ -21,7 +21,7 @@
     position:absolute;
     display:flex;
     align-items: center;
-    background-color: red;
+    // background-color: red;
     
     font-family: var(--nameFont);
     animation-name: type;

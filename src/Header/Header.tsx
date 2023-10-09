@@ -63,7 +63,8 @@ function TypeWriter() {
         // alert(type.volume);
         setTimeout(() => {
 
-            (document.querySelector(".Header .name > h1") as HTMLElement).innerHTML = "AKASH KUMAR"
+           ( document.querySelector(".Header .name > h1") as HTMLElement).innerHTML = "AKASH KUMAR";
+            (document.querySelector(".HeaderMob .name > h1") as HTMLElement).innerHTML = "AKASH KUMAR"
 
             // let type=document.querySelector("#type") as HTMLVideoElement;
             // type.pause();
@@ -116,43 +117,27 @@ export function HeaderMob() {
     const typewriter = require("../typewriter.mp3");
     return <div className="HeaderMob">
         {/* <video src={typewriter} id="type" loop={true} style={{display:"none"}} autoPlay={true}></video> */}
+        <div className="container" >
+<TypeWriter />
 
-        <div className="container">
-            <TypeWriter />
-            {/* <div className="avatar"></div>
-    
-                <div className="leftHeader">
-    
-                <div className="leftBottom">
-                
-                <div className="social" >
-    
-                        <div className="linkedIn"><div className="lLogo"></div><a>iamakashk</a></div>
-                        <div className="github"><div className="gLogo"></div><a>akashkgit</a></div>
-                        <div className="mail"><div className="mLogo"></div><a>akashkvit@gmail.com</a></div>
-                    </div>
-                    </div>
-    
-                
-                <div className="logo">
-                    <div className="aws"></div>
-                    <div className="binghamton"></div>
-                    
-    
+
+
+         
+
+
+
+            
+        <div className="logo">
+                <div className="aws"></div>
+                <div className="binghamton"></div>
                 </div>
-                
-                
-                
-            </div> */}
-
-
-
-            {/* <div className="rightHeader">
-            <div className="logo">
-                    <div className="aws"></div>
-                    <div className="binghamton"></div>
-                    </div>
-            </div> */}
+                <div className="linkedIn"><div className="lLogo"></div><a>iamakashk</a></div>
+                <div className="github"><a>akashkgit</a><div className="gLogo"></div></div>
+                <div className="mail"><div className="mLogo"></div><a>akashkvit@gmail.com</a></div>
         </div>
-    </div>
+        
+
+        </div>
+
+    
 }

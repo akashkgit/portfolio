@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
-
+// @media (min-width:1000px){
 .HeaderMob{
     display:none;
 }
@@ -173,6 +173,9 @@
     
 
 }
+.HeaderMob{
+    display:none;
+}
 .avatar{
     background-image: url("../stand.jpeg");
     background-repeat: no-repeat;
@@ -214,3 +217,4 @@ body{
     
 }
 
+// }

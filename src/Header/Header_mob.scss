@@ -10,26 +10,197 @@
         --nameFont:'Audiowide', cursive;
         --descFont:'Averia Serif Libre', cursive;
     }
- 
+    .HeaderMob .avatar{
+                background-image: url("../stand.jpeg");
+                background-repeat: no-repeat;
+                background-size: 150% 230%;
+                width:6rem;
+                height:6rem;
+                
+                
+                background-position-x: 40%;
+                
+                
+                
+                border:5px solid white;
+                
+                
+                border-radius:10rem;
+            
+            }
+ .Header{
+    display:none;
+ }
     
+ body{
+    
+    height:100dvh;
+    box-sizing: border-box;
+    margin:0;
+ }
+ #root{
+    height:100%;
+ }
+ .app{
+background-color: yellow;
+
+
+ }
     .HeaderMob{
 
         width:100%;
         height:100%;
         position: relative;
-        background-color:rgb(150, 212, 233);
+        background-color:rgb(7, 58, 154);//rgb(5, 40, 105);//rgb(150, 212, 233);
     }
     .container{
         display:flex;
         justify-content: center;
         align-items: center;
         width:100%;
-        border:2px solid red;
+        position:relative;
+        flex-direction: column;
+        border:2px solid gold;
+        box-sizing: border-box;
+
+        
         height:100%;
     }
     .Header{
         display:none;
+    } .logo{
+      
+                border:2px solid red;
+                
+                
+                display:flex;
+                
+              
+            }
+            
+            
+            .logo .aws{
+                width:6rem;
+                height:6rem;
+                padding-top:1dvh;
+                
+                // border:2px solid yellow;
+                
+                 
+                 
+                
+                background: url("https://images.credly.com/size/340x340/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png");
+                background-size: contain;
+                background-origin:content-box;
+                background-repeat: no-repeat;
+                box-sizing: border-box;
+                
+                
+                
+                
+                
+                
+            
+            }
+            
+            .logo .binghamton{
+                width:6rem;
+                height:7rem;
+                padding-top:0.75rem;
+                
+                // border:2px solid yellow;
+                
+                 
+                 
+                
+                background: url("https://www.binghamton.edu/assets/img/logo/binghamton-icon.png");
+                background-size: contain;
+                background-origin:content-box;
+                background-repeat: no-repeat;
+                box-sizing: border-box;
+                
+                
+                
+                
+                
+                
+            
+            }
+
+
+
+    .linkedIn{
+    
+        height:5%;
+        box-sizing: border-box;
+        gap:0.5rem;
+        // background-color:Red;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(214, 220, 226);
+        align-self: flex-start;
+        position:absolute;
+        left:clamp(5px,0.5%,10px);
+        top:0;
+        flex-direction: row;
     }
+
+    .mail{
+    
+        height:5%;
+        box-sizing: border-box;
+        gap:0.5rem;
+        // background-color:Red;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(214, 220, 226);
+        align-self: flex-start;
+        align-self: center;
+        left:clamp(5px,0.5%,10px);
+        bottom:0;
+        left:25%;
+        flex-direction: row;
+    }
+
+    .github{
+    
+        height:5%;
+        box-sizing: border-box;
+        gap:0.5rem;
+        // background-color:Red;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(214, 220, 226);
+        align-self: flex-start;
+        position:absolute;
+        right:clamp(5px,0.5%,10px);
+        top:0;
+        flex-direction: row;
+    }
+        .lLogo,.gLogo,.mLogo{
+     width:1.5rem;
+     height:1.5rem;
+    //  border:2px solid green;
+    }
+    .lLogo{
+        background: url("../in96.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .gLogo{
+                background: url("../ghwhite.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            .mLogo{
+                background: url("../gmail.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
 }
 //     .Header{
 //         width:100%;
