@@ -130,10 +130,11 @@ font-family: 'Noto Sans JP', sans-serif;
 
 
 }
+
 .Body{
     margin-top:6rem; 
     padding-top:clamp(150px,20dvh,500px);
-    width:100%;
+    width:100vw;
     box-sizing: border-box;   
 
     display:flex;
@@ -147,7 +148,7 @@ font-family: 'Noto Sans JP', sans-serif;
     
     
     margin-right:0;
-    border:10px solid green;
+    // border:10px solid green;
     
 }
 .Body2{
@@ -156,7 +157,7 @@ font-family: 'Noto Sans JP', sans-serif;
      background-color:rgb(27, 87, 199);
      box-sizing: border-box;
      position:absolute;
-     border:2px solid brown;
+    //  border:2px solid brown;
      z-index: -2;
      
      
@@ -165,4 +166,6 @@ font-family: 'Noto Sans JP', sans-serif;
 
 body{
     background-color:rgb(27, 87, 199);
+    height:100vh;
 }
+

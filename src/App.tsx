@@ -5,8 +5,9 @@ import {Body} from "./Body/Body"
 import React from "react"
 import {Projects} from "./projects2/projects2";
 export function App(){
-    return <div className="app">
+    return <div className="app" >
         <Header />
+        {/* <HeaderMob /> */}
         <Body />
         <div className="Body2">
         </div>
