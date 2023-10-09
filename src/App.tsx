@@ -5,13 +5,15 @@ import {Body} from "./Body/Body"
 import React from "react"
 import {Projects} from "./projects2/projects2";
 export function App(){
-    return <div className="app" style={{height:"100%",width:"100%"}}>
+    return <div className="app" style={{height:"100%",width:"100%",scroll:"auto",flex:"none"}}>
          <Header />
         <HeaderMob />
         <Body />
         <div className="Body2">
         </div>
+        <div className="child">
         <Outlet />
+        </div>
         {/* <Footer /> */}
         
 

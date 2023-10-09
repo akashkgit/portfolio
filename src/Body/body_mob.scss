@@ -138,11 +138,14 @@ height:30vw;
 
 
 }
-
+.app{
+    scroll-snap-type:y mandatory;
+}
 .Body{
     padding-top:12%; 
+    scroll-snap-align: start;
     
-    width:100%;
+    overflow-y: scroll;
     box-sizing: border-box;   
 
     display:flex;

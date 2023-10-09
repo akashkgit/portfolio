@@ -1,5 +1,6 @@
 @media(max-width:600px) {
     .projectCont{
+        scroll-snap-type:y mandatory;
         width: 100%;
         
         

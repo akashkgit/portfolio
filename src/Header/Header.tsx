@@ -134,7 +134,10 @@ export function HeaderMob() {
                 <div className="linkedIn"><div className="lLogo"></div><a>iamakashk</a></div>
                 <div className="github"><a>akashkgit</a><div className="gLogo"></div></div>
                 <div className="mail"><div className="mLogo"></div><a>akashkvit@gmail.com</a></div>
+                <p className="j Intro">Hi There! If you are Looking for some curious person to co-develop geeky stuff or have a geek talk, you got me ! Yay :-)
+                Feel free to reach out to me or scroll down to know more about me</p>
         </div>
+        
         
 
         </div>
