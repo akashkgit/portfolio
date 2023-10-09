@@ -1,0 +1,183 @@
+@media (min-width:1000px) and (min-resolution:190dpi){
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+.Card{
+    width:22vw;
+    
+    position:relative;
+    height:20rem;
+    min-width:200px;
+    
+box-sizing: border-box;
+    display:flex;
+    
+// background-color: wheat;
+    border-radius: 1px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+     box-shadow:0px 0px 10px -15px grey;
+    
+}
+.title{
+    font-size:2rem;
+    font-family: 'Marcellus SC', serif;
+    // border:2px solid gold;
+}
+.titleDesc{
+    color:black;
+    text-align: center;
+    font-size:1rem;
+font-family: 'Noto Sans JP', sans-serif;
+}
+.Card.projects:before{
+    width:100%;
+    height:10%;
+    background-color: black;
+    opacity: 0.5;
+    
+    filter: blur(10px);
+
+    position:absolute;
+    bottom:-0.5%;
+    z-index:-1;
+    left:-0.5%;
+    content: "";
+
+}
+.Card.articles:before{
+    width:100%;
+    height:10%;
+    background-color: black;
+    opacity: 0.5;
+    transform: skewY(1.5deg);
+    filter: blur(10px);
+
+    position:absolute;
+    bottom:-1%;
+    z-index:-1;
+    left:5px;
+    content: "";
+
+}
+.Card:not(.projects,.articles):before{
+    width:100%;
+    height:10%;
+    background-color: black;
+    opacity: 0.5;
+    
+    filter: blur(10px);
+
+    position:absolute;
+    bottom:-1%;
+    z-index:-1;
+    left:5px;
+    content: "";
+
+}
+
+
+.Books{
+    
+}
+.cardContainer{
+    
+    width:80%;
+    display:flex;
+    
+//    border:2px solid red;
+    flex-direction: column;
+    max-height: 650px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cardImg{
+    width:50%;
+    min-width:30%;
+// border:2px solid yellow;
+height:10vw;
+    
+}
+.projects .cardImg{
+    // border : 2px solid red;
+    background: url("../build.png");
+    background-repeat: no-repeat;
+    background-position:1% 0%;
+    background-size: contain;
+    
+
+
+}
+.Music .cardImg{
+    // border : 2px solid red;
+    background: url("../piano1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+.Books .cardImg{
+    // border : 2px solid red;
+    background: url("../books.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+.articles .cardImg{
+    // border : 2px solid red;
+    background: url("../articles.png");
+
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+.Body{
+    margin-top:6rem; 
+    padding-top:clamp(150px,20dvh,500px);
+    width:100vw;
+    box-sizing: border-box;   
+
+    display:flex;
+    flex-wrap: wrap;
+    min-width: 900px;
+    
+    height:22rem;
+    flex-direction: row;
+    justify-content: center;
+    background-color:white;
+    
+    
+    margin-right:0;
+    // border:10px solid green;
+    
+}
+.Body2{
+    width:100vw;
+    height:30rem;
+     background-color:rgb(27, 87, 199);
+     box-sizing: border-box;
+     position:absolute;
+    //  border:2px solid brown;
+     z-index: -2;
+     
+     
+    
+}
+
+body{
+    background-color:rgb(27, 87, 199);
+    height:100vh;
+}
+
+
+
+
+}
