@@ -1,0 +1,332 @@
+@media(max-width:600px) {
+    .projectCont{
+        width: 100%;
+        
+        
+        // border:2px solid gold;
+        position:relative;
+        z-index: 0;
+        padding-top:1rem;
+        height:30rem;
+        padding-bottom:0.5rem;
+        box-sizing: border-box;
+        background-color:rgb(27, 87, 199);
+        // border:2px solid grey;
+    
+        
+    
+        
+    
+    }
+    .selectedNav{
+        border:2px solid white;
+        background-color:white;
+        background-color:rgb(27, 87, 199);
+    }
+    .projectCont a:link,.projectCont a:active,.projectCont a:visited{
+    text-decoration: none;
+    color:White;
+    }
+    
+    .projectNav{
+        display:flex;
+        width:70%;
+        margin:auto auto;
+        justify-content: center;
+        gap:1rem;
+    }
+    
+    .projectNav{
+        width:80%;
+        
+        // border:2px solid black;
+        display:flex;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color:White;
+        
+    }
+    .projectNav > .navItem{
+        border-bottom:2px solid white;
+        width:5rem;
+        transition: display 2s;
+        display:flex;
+    
+        
+        justify-content: center;
+        align-items: center;
+        padding:0.25rem;
+    }
+    
+    .projectContent{
+        margin-top: 3rem;
+        
+        box-sizing: border-box;
+        width:100%;
+        // border:2px groove green;
+        // height:20rem;
+        
+        background-color:rgb(27, 87, 199);
+    
+        
+    }
+    
+    .projectItem{
+        width:100%;
+        height:100%;
+        
+    
+        
+    }
+    
+    .chess,.Risc,.Xv6{
+     width:100%;
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     flex-wrap: no-wrap;
+     align-items: center;
+    //  border:2px solid brown;
+     
+     gap:1rem;
+    
+    }
+    .Parking,.Agrimation{
+        width:100%;
+     
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+       //  border:2px solid yellow;
+        
+        gap:1rem;
+       
+    }
+    .chessI{
+        background:url("../chess.png") ;
+        background-size: contain;
+        background-repeat:no-repeat;
+        width:34rem;
+        // border:2px solid black;
+        box-shadow: 2px 1px 5px 1px black;
+        
+        height:20.15rem;
+        
+    
+    
+    }
+    .chessV{
+        // background:url("../chess.png") ;
+        background-size: contain;
+        background-repeat:no-repeat;
+        width:20.5rem;
+        margin-bottom:1rem;
+        // border:2px solid black;
+        box-shadow: 2px 1px 9px 1px black;
+
+        margin-top:0.5rem;
+        // height:11.5rem;
+        position:relative;
+        
+    
+    
+    }
+    .chessVDiv{
+        position:relative;
+    }
+    .chessVDiv::before{
+        width:100%;
+        height:10%;
+        
+        background-color: black;
+        opacity: 0.5;
+        transform: skewY(-3deg);
+        filter: blur(10px);
+    
+        position:absolute;
+        bottom:7%;
+        z-index:-1;
+        left:-0.5%;
+        content: "";
+    
+    }
+    .chessC p{
+        margin-top:0%;
+    }
+    .j{
+    text-align: justify;
+    }
+    .parkC,.rC,.xv6C{
+        color:white;
+        
+        
+        
+        
+        width:90%;
+
+        padding-right:0.5rem;
+        font-size:1.1rem;
+        // border:2px solid red;
+        
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    
+    .chessC,.inkC{
+        color:white;
+        
+        
+        
+        
+        width:90%;
+        padding-right:0.5rem;
+        font-size:1.1rem;
+        // border:2px solid green;
+        
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    .inkV{
+      // background:url("../chess.png") ;
+      background-size: contain;
+      background-repeat:no-repeat;
+      width:22.2rem;
+      margin-bottom:1rem;
+      // border:2px solid black;
+      box-shadow: 2px 1px 9px 1px black;
+      margin-top:0.5rem;
+      
+      position:relative;
+      
+    }
+    .entityBoxer{
+        border:2px solid white;
+        margin-left:0.5rem;
+        background-color: white;
+        color:rgb(27, 87, 199);
+        text-align: left;
+        border-radius: 0.5rem;
+        margin-top:0.75rem;
+        display: inline-block;
+        padding:0.2rem;
+    }
+    
+    .source{
+        display:flex;
+        flex-direction: column;
+    
+        // border:2px solid gold;
+    
+    }
+    .gt,.live{
+        display:flex;
+        flex-direction: row;
+        gap:0.5rem;
+    }
+    .live > .url{
+        word-break: break-all;
+    }
+    .inker .source{
+        margin-top:0.5rem;
+    
+    }
+    .glogo{
+        width:2rem;
+        height:2rem;
+        
+        background: url("../ghwhite.png");
+        background-size:contain;
+    }
+    
+    .llogo{
+        width:2rem;
+        height:2rem;
+        
+        background: url("../web.png");
+        background-size:contain;
+    }
+        
+    .inker{
+        width:100%;
+        
+        box-sizing: border-box;
+        margin:auto auto;
+        
+        // border:2px solid gold;
+        // background-color: grey;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        // padding-top:0.5rem;
+        gap:0.5rem;
+        // margin-top:1rem;
+    
+    
+        align-items: center;
+        
+        flex-wrap: no-wrap;
+    
+    
+    }
+    .inkI{
+        
+        width:15rem;
+        height:15rem;
+        filter:drop-shadow(3px 2px 4px black);
+        // background: url("../marker.png");;
+        // background-size:contain;
+        // background-repeat: no-repeat;
+    }
+    // .inkC  {
+    //     color:white;
+        
+        
+        
+        
+        
+    //     padding-right:0.5rem;
+    //     font-size:1.1rem;
+        
+    //     font-family: 'Noto Sans JP', sans-serif;
+    // }
+    
+    .parkI{
+        background:url("../diag.jpeg") ;
+        background-size: contain;
+        background-repeat:no-repeat;
+        width:20.5rem;
+        
+        box-shadow: 3px 2px 7px 1px black;
+        
+        height:20rem;
+    }
+    .parkC,.rC,.agrimationC{
+        color:white;
+        
+        
+        
+        
+        width:90%;
+        padding-left:0.25rem;
+        padding-right:0.25rem;
+        
+        
+        font-size:1.1rem;
+        
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    
+     .agrimationI{
+        background:url("../rover.png") ;
+        background-size: contain;
+        background-repeat:no-repeat;
+        width:21.5rem;
+        // border:2px solid black;
+        box-shadow: 2px 1px 5px 1px black;
+        
+        height:15rem;
+        
+     }
+}

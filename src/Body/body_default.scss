@@ -4,7 +4,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-
+@media (max-width:999px) and (min-width:601px) and (min-resolution:190dpi){
 .Card{
     width:22vw;
     
@@ -181,3 +181,10 @@ body{
 
 
 
+
+}
+
+
+a:link{
+    text-decoration: none;
+}

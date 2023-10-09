@@ -9,7 +9,7 @@
         height:10%;
         
         align-self: center;
-        border:2px solid yellow;
+        // border:2px solid yellow;
         position:relative;
         min-width:50px;
     }
@@ -18,7 +18,7 @@
         
         height:100%;
         left:100%;
-        border:2px solid red;
+        // border:2px solid red;
         position:absolute;
         flex-direction: row;
         width:1rem;
@@ -97,7 +97,7 @@
     }
     .TypeWriter > .name > h1 {
         color:var(--color);
-        border:2px solid grey;
+        // border:2px solid grey;
         display: inline-block;
         filter:drop-shadow(1px 1px 1px black);
         width:100%;
