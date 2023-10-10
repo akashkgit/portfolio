@@ -1,13 +1,8 @@
 
 @media (max-resolution:189dpi) and (max-width:999px) and (min-width:601px){
-    
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-    
     .HeaderMob{
         display:none;
-        
     }
-    
     *{
         
         --color:white;
@@ -16,30 +11,32 @@
     }.Header{
         width:100dvw;
         height: 14dvh;
-        min-height:40px;
-        min-width:990px;
+        min-height:100px;
+        min-width:1100px;
         z-index:1;
         position:fixed;
         display:grid;
         top:0;
         // height:50vh;
-          background-color: rgb(5, 40, 105);//rgba(4, 35, 91, 1);//rgb(38, 90, 196);//rgb(72, 115, 203);//rgb(20, 52, 117);////rgb(96, 133, 202);
+          background-color:rgb(5, 40, 105);//rgba(4, 35, 91, 1);//rgb(38, 90, 196);//rgb(72, 115, 203);//rgb(20, 52, 117);////rgb(96, 133, 202);
         background-size: contain;
         padding:0;
         margin:0;
         box-sizing: border-box;
         outline:0;
+        // border: 2px solid pink;
         background-repeat:no-repeat;
     }
     .container{
         width:100%;
         
         height:100%;
-        // border: 2px solid grey;
+        // border: 21px solid grey;
+        box-sizing: border-box;
         display:flex;
         position:relative;
-        justify-content: flex-start;
-        padding-bottom:0.1rem;
+        
+        
         gap:1rem;
         // border:2px solid black;
         
@@ -49,14 +46,19 @@
     .rightHeader{
     //  border:2px solid red;
      position:absolute;
-     right:1rem;
+     right:1rem;top: 1dvh;
+    
      
     }
     .leftHeader{
-        // border:2px solid green;
+        // border:2px solid white;
         margin:auto auto;
         height:100%;
+        flex:1;
         display:flex;
+        box-sizing: border-box;
+        justify-content: center;
+        flex-direction: column;
         width:60%;
     
     }
@@ -111,8 +113,11 @@
     .logo{
       
         // border:2px solid red;
+        position:absolute;
+        right:0;
         height:100%;
         
+        align-self: center;
         display:flex;
         
       
@@ -122,7 +127,7 @@
     .logo .aws{
         width:6rem;
         height:6rem;
-        padding-top:0.5rem;
+        padding-top:1dvh;
         
         // border:2px solid yellow;
         
@@ -166,6 +171,9 @@
         
     
     }
+    .HeaderMob{
+        display:none;
+    }
     .avatar{
         background-image: url("../stand.jpeg");
         background-repeat: no-repeat;
@@ -182,9 +190,18 @@
         border-radius:10rem;
     
     }
+    .leftTop{
+        width:100%;
+        height:50%;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        // border:2px solid red;
+    
+    }
     .leftBottom{
         // border:2px solid yellow;
-        align-self: flex-end;
+        
         height:50%;
         width:100%;
         box-sizing: border-box;
@@ -198,8 +215,4 @@
         
     }
     
-    
-    
     }
-    
-    

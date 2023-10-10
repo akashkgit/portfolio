@@ -21,7 +21,7 @@
     position:absolute;
     display:flex;
     align-items: center;
-    // background-color: red;
+    
     
     font-family: var(--nameFont);
     animation-name: type;
@@ -59,7 +59,7 @@
     background-color: white;
     
     right:0rem;
-    top:1.0rem;
+    
     border: 3px solid white;
     position: absolute;
     animation:blink;

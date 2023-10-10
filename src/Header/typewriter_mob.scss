@@ -4,7 +4,7 @@
     
     .TypeWriter{
         
-        width:19rem;
+        width:17.5rem;
         // border:2px solid gold;
 
         height:10%;
@@ -20,19 +20,23 @@
         height:100%;
         left:100%;
         // border:2px solid white;
-        position:absolute;
+       
         flex-direction: row;
         width:1rem;
         font-family: var(--nameFont);
-        animation-name: type;
+        
+        
         display:flex;
         align-items: center;
         justify-content: space-between;
+        position:absolute;
+        animation-name: type;
         animation-duration: 2.5s;
         animation-fill-mode: forwards;
-        overflow-x: hidden;
+        
         animation-iteration-count: 3;
         animation-direction:alternate;
+        overflow-x: hidden;
         
         
     }
@@ -67,6 +71,8 @@
         animation-duration: 2.5s;
         box-sizing: border-box;
         animation-iteration-count: 3;
+        position:absolute;
+        right:0;
         animation-direction: alternate;
         animation-fill-mode: forwards;
     
