@@ -84,7 +84,7 @@ export function Chess(){
 
 </div>
 <div className="chessVDiv">
-<video className="chessV" src={chessvideo} controls={true}  autoPlay={true}>
+<video className="chessV" src={chessvideo} controls={true}>
     
 </video>
 </div>
@@ -120,7 +120,7 @@ export function Inker(){
         </div>
             </div>
             <div className="chessVDiv">
-<video className="inkV" src={inkervideo} controls={true}  autoPlay={true}>
+<video className="inkV" src={inkervideo} controls={true}  >
     
 </video>
 </div>

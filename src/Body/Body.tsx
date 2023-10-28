@@ -19,7 +19,7 @@ export function Body(){
     <Link to="projects/chess" data-view="projectCont"><Card view="projectCont" cont="Projects" classId="projects" desc={"Explore this arena to get know more about my hobby and research projects"}/></Link>
    <Link to="books/zeroToOne" data-view="booksCont"> <Card cont="Books"  view="booksCont" classId="Books" desc={"Traverse the summaries of the Books  that I have read by click on this Item  "}/></Link>
    <Link to="/"> <Card cont="Music"  classId="Music" desc={"Here I present you with some of my free style piano covers. Hear it  once and let me know in the comment section :-)"}/></Link>
-   <Link to="/"> <Card cont="Articles" classId="articles"  desc={"I unveil some of the good thoughts and concepts that I think are worth noting"}/></Link>
+   <Link to="/knowme"> <Card cont="Know More" classId="articles"  desc={"I unveil some of the important details about me. Click it to get to know more"}/></Link>
     </div>
 }
 

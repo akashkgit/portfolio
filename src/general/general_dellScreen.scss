@@ -1,0 +1,148 @@
+
+@media (max-resolution:189dpi) and (min-width:1000px){
+    .general{
+
+    //  border:2px solid rgb(225, 225, 225);;
+     margin-top:12rem;
+     
+    background-color: rgb(27, 87, 199);
+     .intro{
+        width:70%;
+        min-height: 900px;
+        margin:auto auto;
+        color:rgb(225, 225, 225);
+        font-family:'Courier New', Courier, monospace;
+     }
+     p{
+        font-weight: 700;
+        
+        font-family:'Courier New', Courier, monospace;
+        color:rgb(225, 225, 225);;
+        margin:auto auto;
+        width:70%;
+        display:flex;
+        justify-content: center;
+        margin-top:2rem;
+        
+     }
+     .skillsexp{
+        // border:2px solid black;
+        color:rgb(225, 225, 225);
+        
+        padding:1rem;
+        width:70%;
+        display:flex;
+        justify-content: center;
+        gap:1rem;
+        margin:auto auto;
+        font-weight: 700;
+        font-family:'Courier New', Courier, monospace;
+        
+            .categories{
+                display:inline-flex;
+                
+                // border:2px solid red;
+                gap:0.5rem;
+                flex-direction: column;
+                div{
+                    border:2px solid rgb(225, 225, 225);
+                    // background: linear-gradient(to right bottom,rgb(225, 225, 225);,  rgba(27, 87, 199, 0.487));
+                    padding:0.25rem;
+                }
+            
+            }
+            .skilllist{
+                display:inline-flex;
+
+                // border:2px solid red;
+                gap:0.5rem;
+                justify-content: space-between;
+                padding:0.25rem;
+                // border:2px solid red;
+                flex-direction: column;
+            
+            }
+    }
+     .skills{
+        // border:2px solid red;
+     }
+
+     .skillimgs{
+        display:flex;
+        width:30%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        // border: 2px solid black;
+        // height: clamp(100px,15rem, 150px);
+        margin:auto auto;
+        div{
+            // border:2px solid blue;
+            height:5rem;
+            width:21%;
+
+        }
+        .docker{
+            background: url("../docker.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .aws{
+            align-self: flex-end;
+            background: url("../awsl.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .java{
+            align-self: flex-end;
+            background: url("../java.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .c{
+            align-self: flex-end;
+            background: url("../c.png");
+            background-position: 50%;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .linux{
+            align-self: flex-end;
+            background: url("../linux.png");
+            background-position: 50%;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        
+        .sql{
+            align-self: flex-end;
+            background: url("../sql.png");
+            background-position: 50%;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .sql{
+            align-self: flex-end;
+            background: url("../sql.png");
+            background-position: 50%;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .mern{
+            align-self: flex-end;
+            background: url("../mern.png");
+            background-position: 50%;
+            width:55%;
+            min-width:300px;
+            background-size: cover;
+            justify-self: center;
+            background-repeat: no-repeat;
+        }
+        
+        
+
+     }
+     
+    }
+}

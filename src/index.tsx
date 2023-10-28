@@ -6,6 +6,7 @@ import { RouterProvider, createHashRouter } from '../node_modules/react-router-d
 import { Nav } from './Header/Header';
 import {Projects,Chess, Inker, Parking, Risc, Xv6, Agrimation} from "./projects2/projects2";
 import {Home} from "./Home/Home"
+import {General } from "./general/general";
 function Index(){
     return <>
     
@@ -72,6 +73,13 @@ let router=createHashRouter([{
                     element:<Essentialism />,   
                 }
             ]
+
+    },
+    {
+        path:"/knowme",
+        element: <General />
+        
+
 
     }
     ]
