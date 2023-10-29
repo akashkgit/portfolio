@@ -1,7 +1,13 @@
 @media (min-width:601px){
-.projectCont{
-    width: 100%;
+   
+
+    .projectCont{
+
+       
     
+    width: 100%;
+    transition-property: background-image;
+    transition-duration: 10s;
     // margin-top:12rem;
     padding-top:12rem;
     // border:2px solid gold;
@@ -17,12 +23,7 @@
     background: repeating-linear-gradient(45deg, rgb(215, 216, 224) 0%,black 20% , rgb(27, 87, 199) 75%);
     // border:2px solid grey;
     
-    
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-duration: 1s;
 
-    
 
     
 

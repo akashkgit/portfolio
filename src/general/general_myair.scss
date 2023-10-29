@@ -11,13 +11,13 @@
      .intro{
         width:70%;
         margin:auto auto;
-        color:rgb(225, 225, 225);
-        font-family:'Courier New', Courier, monospace;
+        color:white;
+        font-family:"Noto Sans JP", sans-serif
      }
      p{
         font-weight: 700;
-        font-family:'Courier New', Courier, monospace;
-        color:rgb(225, 225, 225);;
+        font-family:"Noto Sans JP", sans-serif;
+        color:white;
         margin:auto auto;
         width:70%;
         display:flex;
@@ -27,7 +27,7 @@
      }
      .skillsexp{
         // border:2px solid black;
-        color:rgb(225, 225, 225);
+        color:white;
         
         padding:1rem;
         width:70%;
@@ -36,7 +36,7 @@
         gap:1rem;
         margin:auto auto;
         font-weight: 700;
-        font-family:'Courier New', Courier, monospace;
+        font-family:"Noto Sans JP", sans-serif;
         
             .categories{
                 display:inline-flex;

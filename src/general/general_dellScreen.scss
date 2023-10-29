@@ -1,27 +1,49 @@
 
 @media (max-resolution:189dpi) and (min-width:1000px){
+    
+    @keyframes move {
+        0%{background: repeating-linear-gradient(45deg, rgb(215, 216, 224) 0%,black 20% , rgb(27, 87, 199) 105%);}
+        10%{background: repeating-linear-gradient(45deg, rgb(215, 216, 224) 10%,black 30% , rgb(27, 87, 199) 115%);}
+        20%{background: repeating-linear-gradient(45deg, rgb(215, 216, 224) 20%,black 40% , rgb(27, 87, 199) 125%);}
+        30%{background: repeating-linear-gradient(45deg, rgb(215, 216, 224) 30%,black 50% , rgb(27, 87, 199) 135%);}
+        40%{background: repeating-linear-gradient(45deg, rgb(215, 216, 224) 40%,black 60% , rgb(27, 87, 199) 145%);}
+        50%{background: repeating-linear-gradient(45deg, rgb(215, 216, 224) 50%,black 70% , rgb(27, 87, 199) 155%);}
+        60%{background: repeating-linear-gradient(45deg, rgb(215, 216, 224) 60%,black 80% , rgb(27, 87, 199) 165%);}
+        70%{background: repeating-linear-gradient(45deg, rgb(215, 216, 224) 70%,black 90% , rgb(27, 87, 199) 175%);}
+        80%{background: repeating-linear-gradient(45deg, rgb(215, 216, 224) 80%,black 90% , rgb(27, 87, 199) 185%);}
+        90%{background: repeating-linear-gradient(45deg, rgb(215, 216, 224) 90%,black 100% , rgb(27, 87, 199) 185%);}
+        100%{background: repeating-linear-gradient(45deg, rgb(215, 216, 224) 0%,black 20% , rgb(27, 87, 199) 105%);}
+
+    }
     .general{
 
     //  border:2px solid rgb(225, 225, 225);;
     //  margin-top:12rem;
+
+    // animation-timeline: scroll(block root);
+    // animation-name: move;
+    // animation-duration: auto;
+    // animation-timing-function: linear;
+
+
     z-index:-1;
     padding-top:12rem;
      text-align: justify;
      
-     background: repeating-linear-gradient(135deg, rgb(215, 216, 224) 0%,black 20% , rgb(27, 87, 199) 105%);
+     background: repeating-linear-gradient(45deg, rgb(215, 216, 224) 0%,black 20% , rgb(27, 87, 199) 105%);
      .intro{
         width:70%;
         text-align: justify;
         min-width: 900px;
         margin:auto auto;
-        color:rgb(225, 225, 225);
-        font-family:'Courier New', Courier, monospace;
+        color:white;
+        font-family:"Noto Sans JP", sans-serif
      }
      p{
         font-weight: 700;
         
-        font-family:'Courier New', Courier, monospace;
-        color:rgb(225, 225, 225);;
+        font-family:"Noto Sans JP", sans-serif;
+        color:white;
         margin:auto auto;
         width:70%;
         display:flex;
@@ -31,8 +53,7 @@
      }
      .skillsexp{
         // border:2px solid black;
-        color:rgb(225, 225, 225);
-        
+        color:white;
         padding:1rem;
         width:70%;
         display:flex;
@@ -40,7 +61,7 @@
         gap:1rem;
         margin:auto auto;
         font-weight: 700;
-        font-family:'Courier New', Courier, monospace;
+        font-family:"Noto Sans JP", sans-serif;
         
             .categories{
                 display:inline-flex;
