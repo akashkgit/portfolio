@@ -5,8 +5,9 @@
     // margin-top:12rem;
     padding-top:12rem;
     // border:2px solid gold;
-    
+    min-height:70vh;
     // height:30rem;
+    
     padding-bottom:0.5rem;
     box-sizing: border-box;
     // background-color:rgb(27, 87, 199);//rgb(27, 87, 199);
@@ -68,7 +69,7 @@ color:White;
     box-sizing: border-box;
     width:100%;
     // border:1px groove green;
-    // height:20rem;
+    // height:60vh;
     // background-color:rgb(27, 87, 199);
 
     
@@ -95,6 +96,7 @@ color:White;
  gap:1rem;
 
 }
+
 .Parking,.Agrimation{
     width:100%;
  
@@ -294,7 +296,7 @@ text-align: justify;
     background-size: contain;
     background-repeat:no-repeat;
     width:24.5rem;
-    border:2px solid red;
+    // border:2px solid red;
     box-shadow: 3px 2px 7px 1px black;
     
     height:23.8rem;
