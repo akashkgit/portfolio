@@ -26,7 +26,7 @@
         
      }
      .skillsexp{
-        border:2px solid black;
+        // border:2px solid black;
         color:rgb(225, 225, 225);
         
         padding:0.5rem;
@@ -44,7 +44,7 @@
             .categories{
                 display:inline-flex;
                 align-self: stretch;
-                border:2px solid red;
+                // border:2px solid red;
                 flex-flow: column;
                 gap:0.755rem;
                 justify-content: space-between;
@@ -65,7 +65,7 @@
             .skilllist{
                 display:inline-flex;
 
-                border:2px solid red;
+                // border:2px solid red;
                 gap:0.5rem;
                 justify-content: space-between;
                 padding:0.25rem;
@@ -84,7 +84,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        border: 2px solid black;
+        // border: 2px solid black;
         // height: clamp(100px,15rem, 150px);
         margin:auto auto;
         div{

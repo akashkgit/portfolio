@@ -3,13 +3,13 @@
 .booksCont{
     // border:2px solid red;
     width:100%;
-    margin-top:10rem;
-    padding-top:4dvh;
+    z-index:-1;
+    padding-top:12rem;
     padding-left:1rem;
     
     display:flex;
     flex-direction: column;
-    background-color:rgb(27, 87, 199);
+    background: repeating-linear-gradient(135deg, rgb(215, 216, 224) 0%,black 20% , rgb(27, 87, 199) 105%);
     align-items: center;
     box-sizing: border-box;
 

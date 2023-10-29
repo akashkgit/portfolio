@@ -2,14 +2,18 @@
 .projectCont{
     width: 100%;
     
-    margin-top:12rem;
+    // margin-top:12rem;
+    padding-top:12rem;
     // border:2px solid gold;
-    position:relative;
-    z-index: 0;
-    height:30rem;
+    
+    // height:30rem;
     padding-bottom:0.5rem;
     box-sizing: border-box;
-    background-color:rgb(27, 87, 199);//rgb(27, 87, 199);
+    // background-color:rgb(27, 87, 199);//rgb(27, 87, 199);
+    // background:linear-gradient( red,rgb(27, 87, 199) , rgb(152, 69, 69));
+    // background:linear-gradient( red,rgb(27, 87, 199) , rgb(152, 69, 69));
+    // background: repeating-linear-gradient( to top right, rgb(215, 216, 224) 10%,black 20% , rgb(27, 87, 199) 200%); // good
+    background: repeating-linear-gradient(135deg, rgb(215, 216, 224) 0%,black 20% , rgb(27, 87, 199) 105%);
     // border:2px solid grey;
 
     
@@ -19,8 +23,8 @@
 }
 .selectedNav{
     border:2px solid white;
-    background-color:white;
-    background-color:rgb(27, 87, 199);
+    // background-color:white;
+    // background-color:rgb(27, 87, 199);
 }
 .projectCont a:link,.projectCont a:active,.projectCont a:visited{
 text-decoration: none;
@@ -31,6 +35,8 @@ color:White;
     display:flex;
     width:70%;
     margin:auto auto;
+    position:relative;
+    z-index:1;
     justify-content: center;
     gap:1rem;
 }
@@ -63,7 +69,7 @@ color:White;
     width:100%;
     // border:1px groove green;
     // height:20rem;
-    background-color:rgb(27, 87, 199);
+    // background-color:rgb(27, 87, 199);
 
     
 }

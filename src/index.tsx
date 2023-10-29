@@ -11,13 +11,7 @@ function Index(){
     return <>
     
     <div className='index'>
-       
-
-
-        
-
-    </div>
-    
+   </div>
     </>
 }
 let router=createHashRouter([{
@@ -80,6 +74,11 @@ let router=createHashRouter([{
         element: <General />
         
 
+
+    }
+    ,{
+        path:"/",
+        element: <General />
 
     }
     ]

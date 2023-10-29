@@ -142,6 +142,7 @@ height:7vw;
     margin-top:6rem; 
     padding-top:clamp(150px,20dvh,500px);
     width:100vw;
+    
     box-sizing: border-box;   
 
     display:flex;
@@ -161,7 +162,9 @@ height:7vw;
 .Body2{
     width:100vw;
     height:55vh;
-     background-color:rgb(27, 87, 199);
+    display:none;
+    //  background:rgb(27, 87, 199);
+     background:linear-gradient(180deg, rgb(3, 55, 152) 1% ,rgb(8, 163, 145) 30%) ;
      box-sizing: border-box;
      position:absolute;
     //  border:2px solid brown;

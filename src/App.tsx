@@ -14,6 +14,7 @@ export function App(){
         <div className="child">
         <Outlet />
         </div>
+        
         {/* <Footer /> */}
         
 
