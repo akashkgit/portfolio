@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
-@media (min-width:1000px){
+@media (min-width:1000px) and (min-resolution:190dpi){
 .HeaderMob{
     display:none;
 }
@@ -128,7 +128,8 @@
   
     // border:2px solid red;
     position:absolute;
-    right:0;
+    right:1%;
+    top:clamp(10px,15%,50px);
     height:100%;
     
     align-self: center;
@@ -139,8 +140,8 @@
 
 
 .logo .aws{
-    width:6rem;
-    height:6rem;
+    width:5rem;
+    height:5rem;
     padding-top:1dvh;
     
     // border:2px solid yellow;
@@ -163,8 +164,8 @@
 }
 
 .logo .binghamton{
-    width:6rem;
-    height:7rem;
+    width:5rem;
+    height:5rem;
     padding-top:0.75rem;
     
     // border:2px solid yellow;

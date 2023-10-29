@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
-@media (max-width:1000px) and (min-width:601px) and (min-resolution:190dpi){
+@media (min-width:1000px) and (max-resolution:189dpi){
 .HeaderMob{
     display:none;
 }
@@ -10,7 +10,14 @@
     --color:white;
     --nameFont:'Audiowide', cursive;
     --descFont:'Averia Serif Libre', cursive;
-}.Header{
+}
+@keyframes animate {
+    0%{background-color: white;}
+    100%{background-color: rgb(5, 40, 105);}
+}
+
+
+.Header{
     width:100dvw;
     height: 14dvh;
     min-height:100px;
@@ -20,11 +27,15 @@
     display:grid;
     top:0;
     // height:50vh;
-    //   background-color:rgb(5, 40, 105);//rgba(4, 35, 91, 1);//rgb(38, 90, 196);//rgb(72, 115, 203);//rgb(20, 52, 117);////rgb(96, 133, 202);
-    background:linear-gradient(45deg, rgb(3, 55, 152) 20% ,2%,black 12%,rgba(8, 163, 145,0.5) 21%),linear-gradient(0deg, rgb(3, 55, 152) 50% ,rgb(8, 163, 145) 50%)  ;//rgba(4, 35, 91, 1);//rgb(38, 90, 196);//rgb(72, 115, 203);//rgb(20, 52, 117);////rgb(96, 133, 202);
+    // background: radial-gradient(10%,white , rgba(4, 35, 91, 1));//, linear-gradient(to top right, white ,rgba(4, 35, 91, 1));
+      background:linear-gradient(45deg, rgb(3, 55, 152) clamp(250px, 25%,300px),2%,black clamp(27px, 12%,320px),rgba(8, 163, 145,0.5) 21%),linear-gradient(0deg, rgb(3, 55, 152) 50% ,rgb(8, 163, 145) 50%)  ;//rgba(4, 35, 91, 1);//rgb(38, 90, 196);//rgb(72, 115, 203);//rgb(20, 52, 117);////rgb(96, 133, 202);
+    // background:linear-gradient(45deg, rgb(152, 3, 35) 20% ,rgba(6, 230, 47, 0.1)  20%),linear-gradient(0deg, rgb(5, 0, 0) 50% ,rgb(180, 158, 106) 50%)  ;//rgba(4, 35, 91, 1);//rgb(38, 90, 196);//rgb(72, 115, 203);//rgb(20, 52, 117);////rgb(96, 133, 202);
+    // background:linear-gradient(45deg, rgb(5, 35, 132) 21%,2%,black 12%,rgba(6, 230, 47, 0.1)  25%),linear-gradient(0deg, rgb(5, 0, 0) 50% ,rgb(113, 3, 27) 50%)  ;//rgba(4, 35, 91, 1);//rgb(38, 90, 196);//rgb(72, 115, 203);//rgb(20, 52, 117);////rgb(96, 133, 202);
+    // background:linear-gradient(45deg, rgb(5, 35, 132) 24%,1%,black 12%,rgba(6, 230, 47, 0.0)  25%),linear-gradient(0deg, black 50% ,rgb(3, 42, 113) 50%)  ;//rgba(4, 35, 91, 1);//rgb(38, 90, 196);//rgb(72, 115, 203);//rgb(20, 52, 117);////rgb(96, 133, 202);
     background-size: contain;
     padding:0;
     margin:0;
+    z-index:2;
     box-sizing: border-box;
     outline:0;
     // border: 2px solid pink;
@@ -118,7 +129,7 @@
     // border:2px solid red;
     position:absolute;
     right:1%;
-    
+    top:clamp(10px,15%,50px);
     height:100%;
     
     align-self: center;
