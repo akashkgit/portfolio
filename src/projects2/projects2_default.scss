@@ -14,13 +14,34 @@
     // background:linear-gradient( red,rgb(27, 87, 199) , rgb(152, 69, 69));
     // background:linear-gradient( red,rgb(27, 87, 199) , rgb(152, 69, 69));
     // background: repeating-linear-gradient( to top right, rgb(215, 216, 224) 10%,black 20% , rgb(27, 87, 199) 200%); // good
-    background: repeating-linear-gradient(135deg, rgb(215, 216, 224) 0%,black 20% , rgb(27, 87, 199) 105%);
+    background: repeating-linear-gradient(45deg, rgb(215, 216, 224) 0%,black 20% , rgb(27, 87, 199) 75%);
     // border:2px solid grey;
+    
+    
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1s;
 
     
 
     
 
+}
+
+@keyframes radiate {
+    0%{
+        background: repeating-linear-gradient(135deg, rgb(215, 216, 224) 0%,black 20% , rgb(27, 87, 199) 105%);
+
+    }
+    10%{
+        background: repeating-linear-gradient(135deg, rgb(215, 216, 224) 10%,black 50% , rgb(27, 87, 199) 135%);
+    }
+    60%{
+        background: repeating-linear-gradient(135deg, rgb(215, 216, 224) 60%,black 80% , rgb(27, 87, 199) 165%);
+    }
+    100%{
+        background: repeating-linear-gradient(135deg, rgb(215, 216, 224) 100%,black 110% , rgb(27, 87, 199) 195%);
+    }
 }
 .selectedNav{
     border:2px solid white;
