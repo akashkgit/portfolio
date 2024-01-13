@@ -49,7 +49,7 @@ export function Projects(){
 }
 
 export function Chess(){
-    const chessvideo=require("../chessvideo.mov");
+    const chessvideo=require("../chessv2.mp4");
     return <div className="chess">
 
 
@@ -64,7 +64,11 @@ export function Chess(){
         players. Astounded by the quality of development involve
         d in this game website and app, I decided to create a clone of it to understand the technicality and concepts behind this website. The Architecture predominantly revolves around the usage of Websockets</p>
         <p>
-            The website clone primarily relies on <br/>
+        <p> New Features Integrated </p>
+        <span className="entityBoxer">Undo Feature to purge unintentional moves</span>
+        <span className="entityBoxer">Timer Pause/Resume Feature to have a break</span>
+        <span className="entityBoxer">In Match Chatting Room</span>
+        <br/> The website clone primarily relies on <br/>
             <span className="entityBoxer">Typescript</span>
             <span className="entityBoxer">ReactJs</span>
             <span className="entityBoxer">Webpack Bundler</span>

@@ -50,7 +50,7 @@ const config = {
         use: [stylesHandler, "css-loader", "postcss-loader"],
       },
       {
-        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|mp3|mov)$/i,
+        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|mp3|mov|mp4)$/i,
         type: "asset",
       },
 

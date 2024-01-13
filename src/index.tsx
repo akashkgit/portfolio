@@ -21,8 +21,46 @@ let router=createHashRouter([{
     element:<App />,
     children:[
         {
+
+                path:"/",
+                element:<Projects />,
+                children:[
+                    {
+                        index:true,
+
+                        element:<Chess />,
+                    },
+                    {path:"chess",
+                    element:<Chess />,
+
+
+                    },
+                    {
+                        path:"inker",
+                        element:<Inker />,
+                    },
+                    {
+                        path:"parking",
+                        element:<Parking />,
+                    },
+                    {
+                        path:"risc",
+                        element:<Risc />,
+                    },
+                    {
+                        path:"xv6",
+                        element:<Xv6 />
+                    },
+                    {
+                        path:"agrimation",
+                        element:<Agrimation />,
+                    },
+                ]
+        },
+
+        {
                 path:"projects",
-                // index:true,
+                
                 element:<Projects />,
                 children:[
                     {
